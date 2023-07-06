@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 
 # Install Go
 RUN apt-get update && apt-get install -y wget git gcc unzip
